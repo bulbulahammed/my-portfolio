@@ -60,7 +60,7 @@ p,
 }
 .navbar #custom_nav ul li {
 	font-size: 14px;
-	margin: 25px 20px 20;
+	margin: 25px 20px 20px;
 	background: none;
 	cursor: pointer;
 }
