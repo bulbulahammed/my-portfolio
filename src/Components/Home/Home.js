@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../Header/Header';
+import Footer from '../Shared/Footer/Footer';
 import Navbar from '../Shared/Navbar/Navbar';
 
 const Home = () => {
@@ -6,7 +8,8 @@ const Home = () => {
         <div>
             <div className="text-center">
                 <Navbar></Navbar>
-                <h1>Hello This is Home</h1>
+                <Header></Header>
+                <Footer></Footer>
             </div>
         </div>
     );

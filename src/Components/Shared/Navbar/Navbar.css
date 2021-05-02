@@ -1,0 +1,101 @@
+
+.navbar #custom_nav ul li .active,
+.navbar #custom_nav ul li a:hover,
+.navbar #custom_nav ul li a:focus,
+.navbar #custom_nav ul li a:active,
+.newnavigation #custom_nav ul li .active,
+.newnavigation #custom_nav ul li a:hover,
+.newnavigation #custom_nav ul li a:focus,
+.newnavigation #custom_nav ul li a:active {
+	color: #18BA60;
+}
+
+.josefin,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .logo .navbar-brand,
+#banner .intro-text,
+#banner .intro-text h1,
+#banner .intro-text h4,
+#counterup .counter-area .single-counter p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.muli,
+p,
+.navbar #custom_nav ul li,
+.newnavigation #custom_nav ul li,
+#Services .service-content .single-service p {
+	font-family: 'Muli', sans-serif;
+}
+
+
+
+/* -------------------------------------------------------
+                     Navigition css start
+-------------------------------------------------------- */
+
+ .navbar {
+	position: fixed;
+	width: 100%;
+	padding: 0;
+	z-index: 999;
+} 
+.navbar .logo .navbar-brand {
+	letter-spacing: 4px;
+	font-size: 25px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-top: 15px;
+	float: left;
+	text-decoration: none;
+}
+.navbar .navbar-toggler {
+	border: none;
+}
+.navbar #custom_nav ul li {
+	font-size: 14px;
+	margin: 25px 20px 0;
+	background: none;
+	cursor: pointer;
+}
+.navbar #custom_nav ul li a {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.newnavigation {
+	-webkit-box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+	min-height: 60px;
+	line-height: 60px;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.newnavigation .logo .navbar-brand {
+	padding-top: 5px;
+}
+.newnavigation .navbar-toggler {
+	border: none;
+}
+.newnavigation #custom_nav ul li {
+	margin: 10px 20px 10px;
+	font-size: 14px;
+	background: none;
+	cursor: pointer;
+}
+.newnavigation #custom_nav ul li a {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* -------------------------------------------------------
+                     Navigition css End
+-------------------------------------------------------- */
