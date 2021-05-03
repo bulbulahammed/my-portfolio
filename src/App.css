@@ -36,3 +36,247 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none !important;
+	list-style: none !important;
+	outline: none !important;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+span {
+	display: inline-block;
+}
+a,
+a:hover,
+a:focus {
+	color: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+/* ----- Clear-fix & Buttons ----*/
+
+.clear-fix {
+	clear: both !important;
+}
+.theme,
+.navbar #custom_nav ul li .active,
+.navbar #custom_nav ul li a:hover,
+.navbar #custom_nav ul li a:focus,
+.navbar #custom_nav ul li a:active,
+.newnavigation #custom_nav ul li .active,
+.newnavigation #custom_nav ul li a:hover,
+.newnavigation #custom_nav ul li a:focus,
+.newnavigation #custom_nav ul li a:active,
+#banner .intro-text h3,
+#Services .service-content .single-service i {
+	color: #18BA60;
+}
+.white,
+.navbar .logo .navbar-brand,
+.navbar .navbar-toggler,
+#banner .intro-text,
+#hero .skills .item .skills-progress h6,
+#hero .skills .item .skills-progress span:after,
+#hero .hero-button a:hover,
+#Services .service-content .single-service:hover i,
+#work .button-group .is-checked,
+#work .button-group button:hover,
+#work .button-group button:active,
+#work .button-group button:focus,
+#work .button-group button .is-checked,
+#work .single-work .snglwork_overlay h5,
+#work .single-work .snglwork_overlay a i,
+#blog .blog-slider .blog-item .post-content .button:hover,
+#contact .form-area .submit input:hover,
+.scroll-top {
+	color: #ffffff;
+}
+.grey1,
+.newnavigation .logo .navbar-brand,
+.newnavigation .navbar-toggler,
+.newnavigation #custom_nav ul li a,
+#hero .about-text h3,
+#hero .hero-button a,
+#Services .section-title h3,
+#work .section-title h3,
+#work .button-group button,
+#counterup .counter-area .single-counter h3,
+#counterup .counter-area .single-counter p,
+#testimonial .section-title h3,
+#testimonial .feedback-area .feedback-slider .single-feedback h6,
+#blog .section-title h3,
+#blog .blog-slider .blog-item .post-content h6,
+#blog .blog-slider .blog-item .post-content .button,
+#contact .section-title h3,
+#contact .form-area .submit input,
+footer .footer-content .footer-icon a i,
+footer .footer-content p {
+	color: #2c3e50;
+}
+.grey2,
+#hero .about-text p,
+#Services .service-content .single-service h5,
+#Services .service-content .single-service p,
+#testimonial .feedback-area .feedback-slider .single-feedback span,
+#blog .blog-slider .blog-item .post-content .tag {
+	color: #7e7e7e;
+}
+.grey3,
+#hero .about-text .small-title,
+#testimonial .feedback-area .feedback-slider .single-feedback p,
+#blog .blog-slider .blog-item .post-content p {
+	color: #999999;
+}
+.grey4 {
+	color: #888888;
+}
+.grey5 {
+	color: #f7f7f7;
+}
+.themebg,
+#hero .skills .item .skills-progress span,
+#hero .hero-button a:hover,
+#Services .service-content .single-service:hover i,
+#work .button-group .is-checked,
+#work .button-group button:hover,
+#work .button-group button:active,
+#work .button-group button:focus,
+#work .button-group button .is-checked,
+#work .single-work .snglwork_overlay a i:hover,
+#blog .blog-slider .blog-item .post-content .button:hover,
+#contact .form-area .submit input:hover,
+.scroll-top {
+	background-color: #18BA60;
+}
+.grey5bg,
+#hero .skills .item .skills-progress,
+#Services,
+#counterup,
+#blog,
+#contact .form-area input,
+#contact .form-area .form-group textarea,
+footer {
+	background-color: #f7f7f7;
+}
+.whitebg,
+.newnavigation,
+#Services .service-content .single-service,
+#work .button-group button,
+#blog .blog-slider .blog-item .post-content {
+	background-color: #ffffff;
+}
+.grey5bg,
+#hero .skills .item .skills-progress,
+#Services,
+#counterup,
+#blog,
+#contact .form-area input,
+#contact .form-area .form-group textarea,
+footer {
+	background-color: #f7f7f7;
+}
+.grey6bg,
+#Services .service-content .single-service i {
+	background-color: #f4f4f4;
+}
+.josefin,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar .logo .navbar-brand,
+#banner .intro-text,
+#banner .intro-text h1,
+#banner .intro-text h4,
+#counterup .counter-area .single-counter p {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.muli,
+p,
+.navbar #custom_nav ul li,
+.newnavigation #custom_nav ul li,
+#Services .service-content .single-service p {
+	font-family: 'Muli', sans-serif;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 30px;
+}
+h4 {
+	font-size: 25px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 16px;
+}
+.tr,
+.navbar #custom_nav ul li a,
+.newnavigation,
+.newnavigation .logo .navbar-brand,
+.newnavigation #custom_nav ul li a,
+#banner .intro-text,
+#hero .hero-button a,
+#Services .service-content .single-service i,
+#work .button-group button,
+#work .single-work,
+#work .single-work .snglwork_overlay,
+#work .single-work .snglwork_overlay h5,
+#work .single-work .snglwork_overlay a i,
+#blog .blog-slider .blog-item .post-content .button,
+#contact .form-area .submit input {
+	transition: all linear 0.3s;
+	-webkit-transition: all linear 0.3s;
+	-moz-transition: all linear 0.3s;
+	-ms-transition: all linear 0.3s;
+	-o-transition: all linear 0.3s;
+}
+.br {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+/* -------------------------------------------------------
+                    Global
+-------------------------------------------------------- */

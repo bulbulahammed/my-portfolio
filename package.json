@@ -11,11 +11,15 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "emailjs-com": "^2.6.4",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
+    "react-animate-text": "^0.4.0",
     "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-jquery-plugin": "^1.1.7",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "rxjs": "^7.0.0",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
