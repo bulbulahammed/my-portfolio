@@ -25,7 +25,7 @@ const Footer = () => {
                                     <span><i class="fab fa-instagram"></i></span>
                                 </a>
                             </div>
-                            <p>&copy; Emily 2018 & Made with love for great people.</p>
+                            <p>&copy; bulbul 2021 & Made with love for great people.</p>
                         </div>
                     </div>
                 </div>
