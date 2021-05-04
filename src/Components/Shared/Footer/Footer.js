@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faEnvelopeSquare, faExternalLinkAlt, faShoppingCart, faLinkedIn, faLink } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
     return (
         <footer>
@@ -10,19 +11,10 @@ const Footer = () => {
                         <div class="footer-content">
                             <div class="footer-icon">
                                 <a href="#" target="_blank">
-                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><FontAwesomeIcon icon={faEnvelope} /></span>
                                 </a>
                                 <a href="#" target="_blank">
-                                    <span><i class="fab fa-twitter"></i></span>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <span><i class="fab fa-linkedin-in"></i></span>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <span><i class="fab fa-behance"></i></span>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <span><i class="fab fa-instagram"></i></span>
+                                    <span><FontAwesomeIcon icon={faLink} /></span>
                                 </a>
                             </div>
                             <p>&copy; bulbul 2021 & Made with love for great people.</p>
