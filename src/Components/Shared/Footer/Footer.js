@@ -8,17 +8,7 @@ const Footer = () => {
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="footer-content">
-                            <div class="footer-icon">
-                                <a href="#" target="_blank">
-                                    <span><FontAwesomeIcon icon={faEnvelope} /></span>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <span><FontAwesomeIcon icon={faLink} /></span>
-                                </a>
-                            </div>
-                            <p>&copy; bulbul 2021 & Made with love for great people.</p>
-                        </div>
+                        <h1 text-center>Footer</h1>
                     </div>
                 </div>
             </div>
