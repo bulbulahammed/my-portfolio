@@ -5,10 +5,10 @@ import { faEnvelope, faEnvelopeSquare, faExternalLinkAlt, faShoppingCart, faLink
 const Footer = () => {
     return (
         <footer>
-            <div class="container">
+            <div class="container footer-line footer-area">
                 <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <h1 text-center>Footer</h1>
+                    <div class="col-md-12">
+                        <p>&copy; Copyright 2020-2021 All rights are Reserved.</p>
                     </div>
                 </div>
             </div>

@@ -1,79 +1,166 @@
 
 #hero {
-	padding-top: 100px;
-	padding-bottom: 70px;
+	font-family: 'Poppins', sans-serif;
+	padding:80px;
 }
+.section-title{
+	padding-bottom: 60px;
+	font-family: 'Poppins', sans-serif;
+}
+.section-title h3{
+	font-size:36px;
+	font-weight: 600;
+	border: 1px solid #FB8500;
+	padding:20px;
+	color:#fff;
+}
+.section-title p{
+	padding-top:20px;
+	font-size: 20px;
+	font-weight: 200;
+	color:#fff;
+}
+
 #hero .hero-photo img {
 	width: 100%;
 }
 #hero .about-text h3 {
 	font-weight: 300;
-	text-transform: capitalize;
+	font-size: 32px;
+	color:#FB8500;
+	font-weight: 500;
+	padding-bottom: 50px;
 }
-#hero .about-text .small-title {
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 5px;
-	margin-bottom: 10px;
+.about-text{
+	
 }
 #hero .about-text p {
 	line-height: 27px;
+	font-size: 16px;
+	font-weight: 200;
+	color:#fff;
 }
-#hero .skills {
-	margin-top: 30px;
+.hero-text-bottom{
+	color:#fff;
 }
-#hero .skills .item {
-	margin-bottom: 30px;
+.hero-text-bottom p{
+	font-weight: 200;
+	padding-top:40px;
+	padding-bottom:40px;
 }
-#hero .skills .item .skills-progress {
-	width: 100%;
-	padding: 5px 10px;
-	border-radius: 5px;
-	-webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
-	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
-	position: relative;
+.hero-text-bottom p span{
+	font-weight: 400;
 }
-#hero .skills .item .skills-progress h6 {
-	font-size: 13px;
-	position: relative;
-	z-index: 2;
+.hero-text-button-area{
+	color: #fff;
 }
-#hero .skills .item .skills-progress span {
-	position: absolute;
-	top: 0;
+.long-arrow-right{
+	display: block;
+	margin: 30px auto;
+	width: 25px;
+	height: 25px;
+	border-top: 2px solid #000;
+	border-left: 2px solid #000;
+  }
+  .long-arrow-right{
+   transform: rotate(135deg);
+  }
+  
+  
+  .long-arrow-right::after{
+	content: "";
+	display: block;
+	width: 2px;
+	height: 45px;
+	background-color: black;
+	transform: rotate(-45deg) translate(15px, 4px);
 	left: 0;
-	height: 100%;
-	width: 10%;
-	border-radius: 5px;
-	-webkit-transition: all 1s;
-	transition: all 1s;
-}
-#hero .skills .item .skills-progress span:after {
-	content: attr(data-value);
-	position: absolute;
-	top: 6px;
-	right: 10px;
-	font-size: 11px;
-}
-#hero .hero-button {
-	text-align: center;
-}
-#hero .hero-button a {
+	top: 0;
+  }
+  
+  
+  
+  
+  
+  .buttonfx{
+	color:#fff;
+	width:173px;
+	height:56px;
+	border-radius:28px;
+	margin:0;
+	padding:0;
+	border:1px solid transparent;
+	font-size: 16px;
+	background-image: linear-gradient(to right, #FB8500, #FFB703);
+	outline: none;
+
+	line-height: 2;
+	position: relative;
+	  display: inline-block;
 	cursor: pointer;
-	text-align: center;
-	font-weight: 300;
-	font-size: 15px;
-	border: 1px solid #18BA60;
-	height: 35px;
-	width: 150px;
-	display: inline-block;
-	line-height: 35px;
-	text-transform: uppercase;
-	margin: 50px 10px 0 10px;
-	z-index: 2;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+	  text-decoration: none; /* remove underline if using A instead of BUTTON tag */
+	overflow: hidden;
+	transition: all .5s;
+  }
+  
+  /* //// Default effect: Slide from Top  //// */
+  
+  .buttonfx:before,
+  .buttonfx:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: #fff; /* onhover background color */
+	z-index: -1;
+	transform: translate3D(0,-100%,0); /* move elements above button so they don't appear initially */
+	transition: all .5s;
+  }
+  
+  .buttonfx:before{
+	background: #fafcd6; /* button default background color */
+	z-index: -2;
+	transform: translate3D(0,0,0);
+  }
+  
+  .buttonfx:hover{
+	  color:#FB8500;
+	  border: 1px solid #FB8500;
+  }
+  
+  .buttonfx:hover:after{
+	transform: translate3D(0,0,0);
+	transition: all .5s;
+  }
+  
+  .about-social-icon a{
+	  color:#FB8500;
+	  transition: all .5s;
+  }
+
+  .about-social-icon a:hover{
+	color:#fff;
 }
+
+  /* //// Curtain Up  //// */
+
+.curtainup{
+	transform-style: preserve-3d;
+  }
+  
+  .curtainup:before,
+  .curtainup:after{
+	transform-origin: center center;
+	transform: scale(1,0);
+  }
+  
+  
+  .curtainup:hover:before,
+  .curtainup:hover:after{
+	transform: scale(1);
+	border-radius: 0;
+  }
+  

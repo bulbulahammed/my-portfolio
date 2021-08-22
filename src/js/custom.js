@@ -36,7 +36,7 @@ $(function () {
     wind.on("scroll", function () {
 
         var bodyScroll = wind.scrollTop(),
-            navbar = $(".navigation");
+            navbar = $(".navbar");
 
         if (bodyScroll > 100) {
 

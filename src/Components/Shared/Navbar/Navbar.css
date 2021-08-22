@@ -1,4 +1,11 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
 
+Nav ul li a{
+	color:#fff;
+	transition: all .5s;
+}
 .navbar #custom_nav ul li .active,
 .navbar #custom_nav ul li a:hover,
 .navbar #custom_nav ul li a:focus,
@@ -7,7 +14,7 @@
 .newnavigation #custom_nav ul li a:hover,
 .newnavigation #custom_nav ul li a:focus,
 .newnavigation #custom_nav ul li a:active {
-	color: #18BA60;
+	color: #FB8500;
 }
 
 .josefin,
@@ -22,19 +29,15 @@ h6,
 #banner .intro-text,
 #banner .intro-text h1,
 #banner .intro-text h4,
-#counterup .counter-area .single-counter p {
-	font-family: 'Josefin Sans', sans-serif;
+.counter-area .single-counter p {
+	font-family: 'Poppins', sans-serif;
 }
-
-.muli,
 p,
 .navbar #custom_nav ul li,
 .newnavigation #custom_nav ul li,
 #Services .service-content .single-service p {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
-
-
 
 /* -------------------------------------------------------
                      Navigition css start
@@ -54,31 +57,33 @@ p,
 	padding-top: 15px;
 	float: left;
 	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
 }
 .navbar .navbar-toggler {
 	border: none;
 }
-.navbar #custom_nav ul li {
+Nav ul li {
 	font-size: 14px;
 	margin: 25px 20px 20px;
 	background: none;
 	cursor: pointer;
 }
-.navbar #custom_nav ul li a {
+Nav ul li  a {
 	margin: 0 !important;
 	padding: 0 !important;
+	font-family: 'Poppins', sans-serif;
 }
-.newnavigation {
-	-webkit-box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
-	box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
-	min-height: 60px;
-	line-height: 60px;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
 }
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#FB8500;
+}
+
 .newnavigation .logo .navbar-brand {
 	padding-top: 5px;
 }
@@ -95,7 +100,19 @@ p,
 	margin: 0 !important;
 	padding: 0 !important;
 }
+.logo{
+	color:#FB8500;
+}
+.navbar-brand:hover{
+	color:#FB8500;
+}
 
+.sticky {
+	background-color: #56537ed8 !important;
+	transition: all 0.3s ease-out 0s !important;
+	box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.1) !important;
+	backdrop-filter: blur(2px) !important;
+  }
 /* -------------------------------------------------------
                      Navigition css End
 -------------------------------------------------------- */

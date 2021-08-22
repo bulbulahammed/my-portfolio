@@ -36,18 +36,7 @@
     transform: rotate(360deg);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* 
 
 * {
 	-webkit-box-sizing: border-box;
@@ -83,7 +72,7 @@ h6 {
 }
 
 /* ----- Clear-fix & Buttons ----*/
-
+/* 
 .clear-fix {
 	clear: both !important;
 }
@@ -221,14 +210,14 @@ h6,
 #banner .intro-text h1,
 #banner .intro-text h4,
 #counterup .counter-area .single-counter p {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .muli,
 p,
 .navbar #custom_nav ul li,
 .newnavigation #custom_nav ul li,
 #Services .service-content .single-service p {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 h1 {
 	font-size: 60px;
@@ -275,7 +264,7 @@ h6 {
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
-}
+} */ 
 
 /* -------------------------------------------------------
                     Global

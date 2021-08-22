@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from '../Shared/Navbar/Navbar';
 import emailjs from 'emailjs-com';
+import contact_img from '../../images/message.png';
+import './Contact.css';
 
 const Contact = () => {
     function sendEmail(e) {
@@ -15,28 +16,40 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <div>
-            <Navbar></Navbar>
+        <div id="contact-area">
             <div className="container">
-                <form onSubmit={sendEmail}>
-                    <div className="row pt-5 mx-auto">
-                        <div className="col-8 form-group mx-auto">
-                            <input type="text" className="form-control" placeholder="Name" name="name" />
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="email" className="form-control" placeholder="Email Address" name="email" />
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <input type="text" className="form-control" placeholder="Subject" name="subject" />
-                        </div>
-                        <div className="col-8 form-group pt-2 mx-auto">
-                            <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-                        </div>
-                        <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn btn-info" value="Send Message"></input>
-                        </div>
+                <div className="row justify-content-center section-title">
+                    <div className="col-md-3">
+                        <h3>Contact</h3>
+                        <p>Lorem ipsum dolor sit.</p>
                     </div>
-                </form>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-md-6">
+                        <form onSubmit={sendEmail}>
+                            <div className="row pt-5 mx-auto">
+                                <div className="col-10 form-group mx-auto">
+                                    <input type="text" className="form-control" placeholder="Name" name="name" />
+                                </div>
+                                <div className="col-10 form-group pt-2 mx-auto">
+                                    <input type="email" className="form-control" placeholder="Email Address" name="email" />
+                                </div>
+                                <div className="col-10 form-group pt-2 mx-auto">
+                                    <input type="text" className="form-control" placeholder="Subject" name="subject" />
+                                </div>
+                                <div className="col-10 form-group pt-2 mx-auto">
+                                    <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                                </div>
+                                <div className="col-10 pt-3 mx-auto">
+                                    <button type="submit" className="buttonfx curtainup" value="Send Message">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div className="col-md-6">
+                        <img className="w-100" src={contact_img} alt="" />
+                    </div>
+                </div>
             </div>
         </div>
     );
